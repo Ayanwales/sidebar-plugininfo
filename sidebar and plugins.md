@@ -16,16 +16,16 @@ This list all the sidebar menus in the chat
 
 ```sh
  Name                       Datatype                   Description 
- Organization_id            Integer                     Id of the organization 
- Plugin_id                  Integer                     Id of  the plugin 
- User_id				            Integer		                  Id of the user
- Auth					              String			                Authorization header
+ Organization_id            Integer                 Id of the organization 
+ Plugin_id                  Integer                 Id of  the plugin 
+User_id				        Integer		            Id of the user
+Auth					    string			        Authorization header
 ```
 
 - Responses
 
 ```sh
-Code					    Description
+Code					Description
 200	        			successful operation
 ```
 
@@ -65,7 +65,7 @@ Example:
 ```
 
 ```sh
-Code					        Description
+Code					Description
 400	                	invalid request
 ```
 
@@ -86,17 +86,17 @@ Request Method:Get
 
 - Parameter 
 ```sh
-Name					          Datatype    	    	  Description
-Organization_id	        Integer	            	Id of the organization
-Plugin_id				        Integer  		          Id of  the plugin
-User_id			    	      Integer	              Id of the user
-Auth					          String		    	      Authorization header
+Name					Datatype    		Description
+Organization_id	        Integer	          	Id of the organization
+Plugin_id				Integer  		    Id of  the plugin
+User_id			    	integer	            Id of the user
+Auth					string		    	Authorization header
 ```
 
 - Responses
 
 ```sh
-Code					    Description
+Code					Description
 201			        	successful operation
 ```
 
@@ -110,9 +110,9 @@ Example:
   "ping_url": "https://todo.zuri.chat/api/ping",
   "html_url": "https://todo.zuri.chat/#/main",
   "sidebar_url": "https://todo.zuri.chat/api/sidebar"
- }
+}
 ```
 ```sh
-Code					          Description
+Code					Description
 400	                	invalid request
 ```
