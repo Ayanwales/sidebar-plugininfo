@@ -15,11 +15,16 @@ This list all the sidebar menus in the chat
 - Parameter.
 
 ```sh
- Name                       Datatype                   Description 
- Organization_id            Integer                 Id of the organization 
- Plugin_id                  Integer                 Id of  the plugin 
-User_id				        Integer		            Id of the user
-Auth					    string			        Authorization header
+ Name                       Datatype                  Description 
+ 
+ Organization_id            Integer                   Id of the organization
+ 
+ Plugin_id                  Integer                   Id of  the plugin
+ 
+User_id		            Integer	              Id of the user
+ 
+Auth                        string                    Authorization header
+ 
 ```
 
 - Responses
@@ -66,7 +71,7 @@ Example:
 
 ```sh
 Code					Description
-400	                	invalid request
+400	                	    invalid request
 ```
 
 ## Plugin information
@@ -86,11 +91,16 @@ Request Method:Get
 
 - Parameter 
 ```sh
-Name					Datatype    		Description
-Organization_id	        Integer	          	Id of the organization
-Plugin_id				Integer  		    Id of  the plugin
-User_id			    	integer	            Id of the user
-Auth					string		    	Authorization header
+Name					Datatype    	            	Description
+
+Organization_id	                         Integer	           	Id of the organization
+
+Plugin_id				Integer  		        Id of  the plugin
+
+User_id			        	Integer	                         Id of the user
+
+Auth					string		        	Authorization header
+
 ```
 
 - Responses
@@ -114,5 +124,5 @@ Example:
 ```
 ```sh
 Code					Description
-400	                	invalid request
+400	                	    invalid request
 ```
